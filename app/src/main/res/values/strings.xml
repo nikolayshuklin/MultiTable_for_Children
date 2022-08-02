@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">multiplication table for children</string>
+    <string name="zagalovok">zagalovok</string>
+    <string name="imageButton1">imageButton1</string>
+    <string name="imageButton2">imageButton2</string>
+    <string name="imageButton3">imageButton3</string>
+    <string name="imageButton4">imageButton4</string>
+    <string name="imageButton5">imageButton5</string>
+    <string name="imageButton6">imageButton6</string>
+    <string name="imageButton7">imageButton7</string>
+    <string name="imageButton8">imageButton8</string>
+    <string name="imageButton9">imageButton9</string>
+    <string name="imageButton10">imageButton10</string>
+    <string name="boys">boys</string>
+    <string name="girl">girl</string>
+    <string name="buttonTable">buttonTable</string>
+    <string name="container">container</string>
+</resources>
