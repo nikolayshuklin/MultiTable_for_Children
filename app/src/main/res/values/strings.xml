@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">multiplication table for children</string>
+    <string name="app_name">Таблица умножения для детей</string>
     <string name="zagalovok">zagalovok</string>
     <string name="imageButton1">imageButton1</string>
     <string name="imageButton2">imageButton2</string>
@@ -13,6 +13,11 @@
     <string name="imageButton10">imageButton10</string>
     <string name="boys">boys</string>
     <string name="girl">girl</string>
+    <string name="question">Реши пример:</string>
+    <string name="answer"> "?" </string>
+    <string name="answerButton">ответить</string>
+    <string name="test_image">Картинка на экране с примерами</string>
+    <string name="primer"> 9 * 5 =</string>
     <string name="buttonTable">buttonTable</string>
-    <string name="container">container</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

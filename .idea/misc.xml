@@ -6,8 +6,12 @@
         <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1375" />
         <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1375" />
         <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/fragment_examen.xml" value="0.1" />
         <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/fragment_table.xml" value="0.20416666666666666" />
+        <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/fragment_test.xml" value="0.22" />
         <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/fragment_top.xml" value="0.19010416666666666" />
+        <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/item.xml" value="0.11197916666666667" />
+        <entry key="..\:/Android/multiplicationtableforchildren/app/src/main/res/layout/list_item.xml" value="0.11197916666666667" />
       </map>
     </option>
   </component>

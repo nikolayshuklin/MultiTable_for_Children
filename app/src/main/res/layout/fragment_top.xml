@@ -21,163 +21,170 @@
             android:src="@drawable/zagal"
 
             />
+
         <ImageButton
             android:id="@+id/imageButton1"
-            android:contentDescription="@string/imageButton1"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            android:src="@drawable/one"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/zagolovok"
-            app:layout_constraintHorizontal_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginTop="@dimen/marginTop"
-            />
+            android:contentDescription="@string/imageButton1"
+            android:onClick="change"
+            android:src="@drawable/one"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/zagolovok" />
 
         <ImageButton
             android:id="@+id/imageButton2"
-            android:contentDescription="@string/imageButton2"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:srcCompat="@drawable/two"
-            app:layout_constraintStart_toEndOf="@id/imageButton1"
-            app:layout_constraintEnd_toStartOf="@id/imageButton3"
-            app:layout_constraintTop_toBottomOf="@id/zagolovok"
-            app:layout_constraintHorizontal_weight="1"
             android:layout_marginTop="@dimen/marginTop"
-            />
+            android:contentDescription="@string/imageButton2"
+            android:onClick="change"
+            app:layout_constraintEnd_toStartOf="@id/imageButton3"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/imageButton1"
+            app:layout_constraintTop_toBottomOf="@id/zagolovok"
+            app:srcCompat="@drawable/two" />
 
         <ImageButton
             android:id="@+id/imageButton3"
-            android:contentDescription="@string/imageButton3"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:srcCompat="@drawable/three"
-            app:layout_constraintStart_toEndOf="@id/imageButton2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/zagolovok"
-            app:layout_constraintHorizontal_weight="1"
             android:layout_marginTop="@dimen/marginTop"
             android:layout_marginEnd="5dp"
-            />
+            android:contentDescription="@string/imageButton3"
+            android:onClick="change"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/imageButton2"
+            app:layout_constraintTop_toBottomOf="@id/zagolovok"
+            app:srcCompat="@drawable/three" />
 
         <ImageButton
             android:id="@+id/imageButton4"
-            android:contentDescription="@string/imageButton4"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageButton1"
-            app:layout_constraintHorizontal_weight="1"
             android:layout_marginStart="5dp"
             android:layout_marginTop="@dimen/marginTop"
-            app:srcCompat="@drawable/four"
+            android:contentDescription="@string/imageButton4"
+            android:onClick="change"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageButton1"
 
-            />
+            app:srcCompat="@drawable/four" />
 
         <ImageButton
             android:id="@+id/imageButton5"
-            android:contentDescription="@string/imageButton5"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:layout_constraintStart_toEndOf="@id/imageButton4"
-            app:layout_constraintEnd_toStartOf="@id/imageButton6"
-            app:layout_constraintTop_toBottomOf="@id/imageButton2"
-            app:layout_constraintHorizontal_weight="1"
             android:layout_marginTop="@dimen/marginTop"
-            app:srcCompat="@drawable/five"
-            />
+            android:contentDescription="@string/imageButton5"
+            android:onClick="change"
+            app:layout_constraintEnd_toStartOf="@id/imageButton6"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/imageButton4"
+            app:layout_constraintTop_toBottomOf="@id/imageButton2"
+            app:srcCompat="@drawable/five" />
 
         <ImageButton
             android:id="@+id/imageButton6"
-            android:contentDescription="@string/imageButton6"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
             android:layout_marginTop="@dimen/marginTop"
             android:layout_marginEnd="5dp"
-            app:layout_constraintStart_toEndOf="@id/imageButton5"
+            android:contentDescription="@string/imageButton6"
+            android:onClick="change"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/imageButton3"
-            app:srcCompat="@drawable/six"
             app:layout_constraintHorizontal_weight="1"
-            />
+            app:layout_constraintStart_toEndOf="@id/imageButton5"
+            app:layout_constraintTop_toBottomOf="@id/imageButton3"
+            app:srcCompat="@drawable/six" />
 
         <ImageButton
             android:id="@+id/imageButton7"
-            android:contentDescription="@string/imageButton7"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:srcCompat="@drawable/seven"
-            android:layout_marginTop="@dimen/marginTop"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="@dimen/marginTop"
+            android:contentDescription="@string/imageButton7"
+            android:onClick="change"
             app:layout_constraintHorizontal_weight="1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageButton4"
-            />
+            app:srcCompat="@drawable/seven" />
 
         <ImageButton
             android:id="@+id/imageButton8"
-            android:contentDescription="@string/imageButton8"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:srcCompat="@drawable/eight"
             android:layout_marginTop="@dimen/marginTop"
+            android:contentDescription="@string/imageButton8"
+            android:onClick="change"
+            app:layout_constraintEnd_toStartOf="@id/imageButton9"
             app:layout_constraintHorizontal_weight="1"
             app:layout_constraintStart_toEndOf="@id/imageButton7"
             app:layout_constraintTop_toBottomOf="@id/imageButton5"
-            app:layout_constraintEnd_toStartOf="@id/imageButton9"
-            />
+            app:srcCompat="@drawable/eight" />
 
         <ImageButton
             android:id="@+id/imageButton9"
-            android:contentDescription="@string/imageButton9"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:srcCompat="@drawable/nine"
             android:layout_marginTop="@dimen/marginTop"
             android:layout_marginEnd="5dp"
+            android:contentDescription="@string/imageButton9"
+            android:onClick="change"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_weight="1"
             app:layout_constraintStart_toEndOf="@id/imageButton8"
             app:layout_constraintTop_toBottomOf="@id/imageButton6"
-            app:layout_constraintEnd_toEndOf="parent"
-            />
+            app:srcCompat="@drawable/nine" />
 
         <ImageButton
             android:id="@+id/imageButton10"
-            android:contentDescription="@string/imageButton10"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            app:srcCompat="@drawable/ten"
             android:layout_marginTop="@dimen/marginTop"
+            android:contentDescription="@string/imageButton10"
+            android:onClick="change"
+            app:layout_constraintHorizontal_weight="1"
             app:layout_constraintStart_toStartOf="@id/imageButton8"
             app:layout_constraintTop_toBottomOf="@id/imageButton8"
-            app:layout_constraintHorizontal_weight="1"
 
-            />
+            app:srcCompat="@drawable/ten" />
 
         <ImageButton
             android:id="@+id/imageButtonBoys"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
             android:layout_marginStart="5dp"
-            android:background="@drawable/boys"            android:contentDescription="@string/boys"
+            android:background="@drawable/boys"
+            android:contentDescription="@string/boys"
+            android:onClick="change"
             app:layout_constraintEnd_toStartOf="@id/imageButton10"
-            app:layout_constraintHorizontal_bias="0.319"
             app:layout_constraintHorizontal_weight="1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/imageButton10" />
 
-        <ImageView
+        <ImageButton
+
+            android:id="@+id/examen"
             android:layout_width="@dimen/drawableSize"
             android:layout_height="@dimen/drawableSize"
-            android:src="@drawable/girl"
-            android:contentDescription="@string/girl"
             android:layout_marginEnd="5dp"
+            android:contentDescription="@string/girl"
+            android:onClick="change"
+            android:background="@drawable/girl"
+            app:layoutDescription="@string/girl"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_weight="1"
             app:layout_constraintStart_toEndOf="@id/imageButton10"
-            app:layout_constraintTop_toTopOf="@id/imageButton10"
-            app:layout_constraintEnd_toEndOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="@id/imageButton10" />
+
+
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

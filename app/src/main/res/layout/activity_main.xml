@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:backgroundTint="@color/white"
 
     >
  <androidx.fragment.app.FragmentContainerView
-     android:id="@+id/container"
+     android:id="@+id/fragmentContainer"
      android:name="com.example.multiplication_table_for_children.FragmentTop"
      android:layout_width="match_parent"
      android:layout_height="match_parent"

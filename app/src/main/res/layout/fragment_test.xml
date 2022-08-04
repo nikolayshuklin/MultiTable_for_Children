@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/question"
+        android:textColor="@color/light_blue_900"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/marginTop"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/primerTextView"
+        />
+
+    <TextView
+        android:id="@+id/primerTextView"
+        android:layout_width="240dp"
+        android:layout_height="100dp"
+        android:textColor="@color/red"
+        android:layout_marginTop="21dp"
+        android:text="@string/primer"
+        android:textSize="55sp"
+        android:gravity="center_horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/editTextNumberSigned"
+        app:layout_constraintTop_toBottomOf="@id/textView1"
+
+        />
+
+    <EditText
+        android:id="@+id/editTextNumberSigned"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:textSize="55sp"
+        android:gravity="center_horizontal"
+        android:inputType="number"
+        android:autofillHints="0"
+        android:hint="@string/answer"
+        android:layout_marginTop="@dimen/marginTop"
+        app:layout_constraintStart_toEndOf="@id/primerTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"
+        />
+    <Button
+        android:id="@+id/buttonAnswer"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/editTextNumberSigned"
+        app:layout_constraintEnd_toEndOf="@id/editTextNumberSigned"
+        app:layout_constraintTop_toBottomOf="@id/editTextNumberSigned"
+        android:text="@string/answerButton"
+        />
+
+    <ImageView
+        android:id="@+id/imageTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/test_image"
+        android:src="@drawable/test_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumberSigned" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
